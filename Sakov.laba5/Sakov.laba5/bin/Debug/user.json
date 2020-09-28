@@ -1,0 +1,55 @@
+{
+  "Area": 0,
+  "CountRoom": 0,
+  "YearsBuilder": "0001-01-01T00:00:00",
+  "TypeMaterial": null,
+  "Floor": 0,
+  "Kitchen": false,
+  "Hall": false,
+  "Bedroom": false,
+  "Bathroom": false,
+  "Adress": {
+    "Country": "Belarus",
+    "Town": null,
+    "Street": null,
+    "House": 0,
+    "Corps": 0,
+    "NumberApartment": 0
+  }
+}{
+  "Area": 10,
+  "CountRoom": 10,
+  "YearsBuilder": "0001-01-01T00:00:00",
+  "TypeMaterial": null,
+  "Floor": 10,
+  "Kitchen": true,
+  "Hall": true,
+  "Bedroom": false,
+  "Bathroom": false,
+  "Adress": {
+    "Country": "Russia",
+    "Town": "Moscow",
+    "Street": "Street",
+    "House": 10,
+    "Corps": 12,
+    "NumberApartment": 65
+  }
+}{
+  "Area": 10,
+  "CountRoom": 10,
+  "YearsBuilder": "0001-01-01T00:00:00",
+  "TypeMaterial": null,
+  "Floor": 10,
+  "Kitchen": true,
+  "Hall": true,
+  "Bedroom": false,
+  "Bathroom": false,
+  "Adress": {
+    "Country": "Russia",
+    "Town": "Volgograd",
+    "Street": "Street",
+    "House": 10,
+    "Corps": 25,
+    "NumberApartment": 65
+  }
+}

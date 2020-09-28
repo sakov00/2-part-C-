@@ -1,0 +1,10 @@
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\bin\Debug\Sakov.laba4.exe.config
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\bin\Debug\Sakov.laba4.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\bin\Debug\Sakov.laba4.pdb
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\obj\Debug\Sakov.laba4.csprojAssemblyReference.cache
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\obj\Debug\Sakov.laba4.Form1.resources
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\obj\Debug\Sakov.laba4.Properties.Resources.resources
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\obj\Debug\Sakov.laba4.csproj.GenerateResource.cache
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\obj\Debug\Sakov.laba4.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\obj\Debug\Sakov.laba4.pdb
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba4\Sakov.laba4\obj\Debug\Sakov.laba4.Form2.resources

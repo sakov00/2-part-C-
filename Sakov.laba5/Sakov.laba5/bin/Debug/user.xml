@@ -1,0 +1,59 @@
+[
+  {
+    "Area": 6,
+    "CountRoom": 8,
+    "YearsBuilder": "0001-01-01T00:00:00",
+    "TypeMaterial": null,
+    "Floor": 0,
+    "Kitchen": true,
+    "Hall": true,
+    "Bedroom": false,
+    "Bathroom": false,
+    "Adress": {
+      "Country": "Belarus",
+      "Town": "Gomel",
+      "Street": "Loshica",
+      "House": 40,
+      "Corps": 43,
+      "NumberApartment": 8
+    }
+  },
+  {
+    "Area": 6,
+    "CountRoom": 5,
+    "YearsBuilder": "0001-01-01T00:00:00",
+    "TypeMaterial": null,
+    "Floor": 0,
+    "Kitchen": true,
+    "Hall": true,
+    "Bedroom": false,
+    "Bathroom": false,
+    "Adress": {
+      "Country": "Belarus",
+      "Town": "Minsk",
+      "Street": "Loshica",
+      "House": 40,
+      "Corps": 43,
+      "NumberApartment": 8
+    }
+  },
+  {
+    "Area": 60,
+    "CountRoom": 2,
+    "YearsBuilder": "2020-03-10T14:06:40",
+    "TypeMaterial": null,
+    "Floor": 6,
+    "Kitchen": true,
+    "Hall": true,
+    "Bedroom": true,
+    "Bathroom": false,
+    "Adress": {
+      "Country": "Belarus",
+      "Town": "Vitebsk",
+      "Street": "Strer",
+      "House": 56,
+      "Corps": 32,
+      "NumberApartment": 56
+    }
+  }
+]

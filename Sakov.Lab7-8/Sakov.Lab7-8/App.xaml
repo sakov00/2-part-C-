@@ -1,0 +1,19 @@
+﻿<Application x:Class="Sakov.Lab7_8.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Sakov.Lab7_8"
+             StartupUri="MainWindow.xaml">
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ResourceDictionaries/RU.xaml"/>
+                <ResourceDictionary Source="ResourceDictionaries/ENG.xaml" />
+                <ResourceDictionary Source="ResourceDictionaries/GridDictionary.xaml" />
+                <ResourceDictionary Source="ResourceDictionaries/StyleBackground.xaml"/>
+                <ResourceDictionary Source="Triggers/Triggers.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>

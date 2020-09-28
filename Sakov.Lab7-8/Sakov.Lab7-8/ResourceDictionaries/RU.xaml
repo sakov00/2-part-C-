@@ -1,0 +1,35 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Sakov.Lab7_8.ResourceDictionaries"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="Name_rus">Название</v:String>
+    <v:String x:Key="Period_rus">Период</v:String>
+    <v:String x:Key="Priority_rus">Приоритет</v:String>
+    <v:String x:Key="Status_rus">Статус</v:String>
+    <v:String x:Key="Category_rus">Категория</v:String>
+    <v:String x:Key="Russian_rus">Русский</v:String>
+    <v:String x:Key="English_rus">Английский</v:String>
+
+    <v:String x:Key="Add_Task_rus">Добавить задачу</v:String>
+    <v:String x:Key="Delete_rus">Удалить</v:String>
+    <v:String x:Key="Search_rus">Поиск</v:String>
+    <v:String x:Key="SearchForCategory_rus">Поиск по категории</v:String>
+    <v:String x:Key="SearchForDay_rus">Поиск по дню</v:String>
+    <v:String x:Key="SearchForPriority_rus">Поиск по приоритету</v:String>
+
+    <v:String x:Key="Work_rus">работа</v:String>
+    <v:String x:Key="House_rus">дом</v:String>
+    <v:String x:Key="Friends_rus">друзья</v:String>
+    <v:String x:Key="Study_rus">учёба</v:String>
+    <v:String x:Key="Courses_rus">курсы</v:String>
+    <v:String x:Key="Rest_rus">отдых</v:String>
+
+    <v:String x:Key="Done_rus">сделано</v:String>
+    <v:String x:Key="Failed_rus">провалено</v:String>
+    <v:String x:Key="Transferred_rus">отложено</v:String>
+
+    <v:String x:Key="Single_Entry_rus">ежедневно</v:String>
+    <v:String x:Key="Weekly_rus">еженедельно</v:String>
+    <v:String x:Key="Monthly_rus">ежемесечно</v:String>
+    <v:String x:Key="Annual_rus">ежегодно</v:String>
+</ResourceDictionary>

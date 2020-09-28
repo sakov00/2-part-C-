@@ -1,0 +1,45 @@
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\bin\Debug\Sakov.Lab7-8.exe.config
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\bin\Debug\Sakov.Lab7-8.exe
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\bin\Debug\Sakov.Lab7-8.pdb
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.csprojAssemblyReference.cache
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\MainWindow.g.cs
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\App.g.cs
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8_MarkupCompile.cache
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8_MarkupCompile.lref
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\MainWindow.baml
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.g.resources
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7_8.Properties.Resources.resources
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.csproj.GenerateResource.cache
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.csproj.CoreCompileInputs.cache
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.exe
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.pdb
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7_8.ResourceDictionaries.Lang_Eng.resources
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7_8.ResourceDictionaries.Lang_Rus.resources
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\App.baml
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\ResourceDictionaries\GridDictionary.baml
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Triggers\Triggers.baml
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\ResourceDictionaries\RU.baml
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\ResourceDictionaries\ENG.baml
+D:\work\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\ResourceDictionaries\StyleBackground.baml
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\bin\Debug\Sakov.Lab7-8.exe.config
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\bin\Debug\Sakov.Lab7-8.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\bin\Debug\Sakov.Lab7-8.pdb
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.csprojAssemblyReference.cache
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\MainWindow.g.cs
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\App.g.cs
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8_MarkupCompile.cache
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8_MarkupCompile.lref
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\App.baml
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\MainWindow.baml
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\ResourceDictionaries\GridDictionary.baml
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\ResourceDictionaries\ENG.baml
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\ResourceDictionaries\RU.baml
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\ResourceDictionaries\StyleBackground.baml
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Triggers\Triggers.baml
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.g.resources
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7_8.Properties.Resources.resources
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7_8.ResourceDictionaries.Lang_Eng.resources
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7_8.ResourceDictionaries.Lang_Rus.resources
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.csproj.GenerateResource.cache
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.Lab7-8\Sakov.Lab7-8\obj\Debug\Sakov.Lab7-8.pdb

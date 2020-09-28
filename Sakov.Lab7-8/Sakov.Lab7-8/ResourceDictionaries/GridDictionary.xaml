@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Sakov.Lab7_8.ResourceDictionaries"
+                     xmlns:Lang="clr-namespace:Sakov.Lab7_8.ResourceDictionaries">
+
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn1_eng">
+        <Setter Property="Content" Value="Name"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn2_eng">
+        <Setter Property="Content" Value="Priority"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn3_eng">
+        <Setter Property="Content" Value="Periodicity"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn4_eng">
+        <Setter Property="Content" Value="Category"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn5_eng">
+        <Setter Property="Content" Value="Status"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn6_eng">
+        <Setter Property="Content" Value="Date"></Setter>
+    </Style>
+
+
+
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn1_rus">
+        <Setter Property="Content" Value="Название"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn2_rus">
+        <Setter Property="Content" Value="Приоритет"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn3_rus">
+        <Setter Property="Content" Value="Периодичность"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn4_rus">
+        <Setter Property="Content" Value="Категория"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn5_rus">
+        <Setter Property="Content" Value="Статус"></Setter>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" x:Key="TextColumn6_rus">
+        <Setter Property="Content" Value="Дата"></Setter>
+    </Style>
+</ResourceDictionary>

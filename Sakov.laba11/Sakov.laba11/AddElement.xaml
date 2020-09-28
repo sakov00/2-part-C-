@@ -1,0 +1,317 @@
+﻿<Window x:Class="Sakov.laba11.AddElement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sakov.laba11"
+        mc:Ignorable="d"
+        Title="AddElement" Height="500" Width="800">
+    <Window.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="#FF0000" Offset="0.0"/>
+            <GradientStop Color="#FF00FF" Offset="0.5"/>
+            <GradientStop Color="#00008B" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="77*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <Label FontFamily="Helvetica"
+                             FontWeight="Light"
+                             Content="Metres"
+                             FontSize="20"
+                             HorizontalAlignment="Center"
+                             Foreground="Black"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             Width="120"
+                             HorizontalContentAlignment="Left"
+                             Margin="1,0,11,10" Grid.Row="1"/>
+        <TextBox x:Name="Metres"
+                             FontFamily="Helvetica"
+                             FontWeight="Light"
+                             Text=""
+                             FontSize="20"
+                             HorizontalAlignment="Center"
+                             Foreground="Black"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             Width="223"
+                             HorizontalContentAlignment="Left"
+                             Margin="13,0,1,10" Grid.Row="1" Grid.Column="1"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="Value_Rooms"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="130"
+            HorizontalContentAlignment="Left"
+            Margin="1,0,1,10" Grid.Row="2"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="Year_Building"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Left"
+            Margin="1,0,11,10" Grid.Row="3"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="Type_Material"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Left"
+            Margin="1,0,11,10" Grid.Row="4"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="Floor"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Left"
+            Margin="1,0,11,10" Grid.Row="5"/>
+        <TextBox x:Name="Value_Rooms"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="13,0,1,10" Grid.Row="2" Grid.Column="1"/>
+        <TextBox x:Name="Year_Building"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="13,0,1,10" Grid.Row="3" Grid.Column="1"/>
+        <TextBox x:Name="Type_Material"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="13,2,1,10" Grid.Row="4" Grid.Column="1"/>
+        <TextBox x:Name="Floor"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="13,0,1,10" Grid.Row="5" Grid.Column="1"/>
+        <Button x:Name="OutPut" Content="OutPut" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="35" Click="OutPut_Click" Background="Transparent" FontSize="20" Foreground="White"/>
+        <Button x:Name="RegisterUsers" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="168" Margin="73,7,0,0" Grid.Row="8" Grid.Column="2" Height="45" Click="RegisterUsers_Click" Background="Transparent" FontSize="20"/>
+        <TextBox x:Name="Country"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="4"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="8,0,0,10" Grid.Row="1" Grid.Column="2"/>
+        <TextBox x:Name="City"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="4"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="8,1,0,10" Grid.Row="3" Grid.Column="2"/>
+        <TextBox x:Name="Street"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="4"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="8,1,0,10" Grid.Row="5" Grid.Column="2"/>
+        <TextBox x:Name="House"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="4"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="8,0,0,10" Grid.Row="7" Grid.Column="2"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="Country"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Center"
+            Margin="58,11,53,0" Grid.Column="2"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="City"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Center"
+            Margin="95,9,90,46" Grid.Column="2" Grid.Row="2" Grid.RowSpan="2"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="Street"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Center"
+            Margin="58,11,53,0" Grid.Column="2" Grid.Row="4"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="House"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Center"
+            Margin="58,11,53,0" Grid.Column="2" Grid.Row="6"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="Corpus"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Left"
+            Margin="22,2,32,7" Grid.Row="6"/>
+        <TextBox x:Name="Corpus"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="51,2,39,7" Grid.Row="6" Grid.Column="1"/>
+        <Border
+            Background="Black"
+            Margin="10,37,1,7" Grid.Row="6" Grid.Column="1" Height="2"/>
+        <Label FontFamily="Helvetica"
+            FontWeight="Light"
+            Content="Number"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="120"
+            HorizontalContentAlignment="Left"
+            Margin="22,3,32,5" Grid.Row="7"/>
+        <TextBox x:Name="Number"
+            FontFamily="Helvetica"
+            FontWeight="Light"
+            Text=""
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Foreground="Black"
+            Background="Transparent"
+            BorderThickness="0"
+            Width="223"
+            HorizontalContentAlignment="Left"
+            Margin="51,3,39,5" Grid.Row="7" Grid.Column="1"/>
+        <Border
+            Background="Red"
+            Margin="10,41,1,3" Grid.Row="7" Grid.Column="1" Height="2">
+            <Border
+                Background="Black"
+                Height="2"/>
+        </Border>
+        <Border
+            Background="Black"
+            Margin="10,34,1,10" Grid.Row="5" Grid.Column="1" Height="2"/>
+        <Border
+            Background="Black"
+            Margin="10,34,1,10" Grid.Row="4" Grid.Column="1" Height="2"/>
+        <Border
+            Background="Black"
+            Margin="11,35,0,10" Grid.Row="3" Grid.Column="1" Height="2"/>
+        <Border
+            Background="Black"
+            Margin="11,37,0,8" Grid.Row="2" Grid.Column="1" Height="2"/>
+        <Border
+            Background="Black"
+            Margin="11,35,0,10" Grid.Row="1" Grid.Column="1" Height="2"/>
+        <Button x:Name="Two_Add" Content="Two_Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="168" Margin="78,7,0,0" Grid.Row="8" Grid.Column="1" Height="45" Background="Transparent" FontSize="20" Click="Two_Add_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,69 @@
+﻿<Window x:Class="Sakov.laba12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sakov.laba12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="44*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="DataApartment" Margin="269,209,41,10" Grid.ColumnSpan="2" AutoGenerateColumns="False" Width="560">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}" Width="50"/>
+                <DataGridTextColumn Header="Area" Binding="{Binding Path=Area}" Width="60"/>
+                <DataGridTextColumn Header="CountRoom" Binding="{Binding Path=CountRoom}" Width="70"/>
+                <DataGridTextColumn Header="YearsBuilder" Binding="{Binding Path=YearsBuilder}" Width="140"/>
+                <DataGridTextColumn Header="TypeMaterial" Binding="{Binding Path=TypeMaterial}" Width="80"/>
+                <DataGridTextColumn Header="Floor" Binding="{Binding Path=Floor}" Width="90"/>
+                <DataGridTextColumn Header="AdressId" Binding="{Binding Path=Adress.Id}" Width="90"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="DataAdress" Margin="46,7,210,301" Width="190" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}" Width="50" />
+                <DataGridTextColumn Header="Country" Binding="{Binding Path=Country}" Width="70" />
+                <DataGridTextColumn Header="City" Binding="{Binding Path=City}" Width="70" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="Add_Apartment" Content="Добавить квартиру по городу" HorizontalAlignment="Left" Margin="9,257,0,0" VerticalAlignment="Top" Width="177" Click="Add_Apartment_Click"/>
+
+        <Button x:Name="Delete" Content="Удалить по id" HorizontalAlignment="Left" Margin="9,309,0,0" VerticalAlignment="Top" Width="100" Click="Delete_Click"/>
+        <Button x:Name="Search_for_Area" Content="Поиск по площади " HorizontalAlignment="Left" Margin="9,334,0,0" VerticalAlignment="Top" Width="100" Click="Search_for_Area_Click"/>
+        <Button x:Name="Search_for_City" Content="Поиск по городу" HorizontalAlignment="Left" Margin="9,359,0,0" VerticalAlignment="Top" Width="100" Click="Search_for_City_Click"/>
+
+        <TextBox x:Name="Area" HorizontalAlignment="Left" Height="23" Margin="96,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="CountRoom" HorizontalAlignment="Left" Height="23" Margin="96,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="YearsBuilder" HorizontalAlignment="Left" Height="23" Margin="96,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="TypeMaterial" HorizontalAlignment="Left" Height="23" Margin="96,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="Floor" HorizontalAlignment="Left" Height="23" Margin="96,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+
+        <TextBox x:Name="Country" HorizontalAlignment="Left" Height="23" Margin="269,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="Town" HorizontalAlignment="Left" Height="23" Margin="269,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+
+        <Label x:Name="label" Content="Квартира" HorizontalAlignment="Left" Margin="126,7,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label_Copy" Content="Адрес" HorizontalAlignment="Left" Margin="304,9,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label_Copy1" Content="Площадь" HorizontalAlignment="Left" Margin="35,33,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label_Copy2" Content="кол-во комнат" HorizontalAlignment="Left" Margin="6,59,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label_Copy3" Content="Год постройки" HorizontalAlignment="Left" Margin="6,89,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label_Copy4" Content="Тип материала" HorizontalAlignment="Left" Margin="4,117,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label_Copy5" Content="Этаж" HorizontalAlignment="Left" Margin="59,145,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label_Copy6" Content="Страна" HorizontalAlignment="Left" Margin="220,35,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label_Copy7" Content="Город" HorizontalAlignment="Left" Margin="226,63,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="Add_Adress" Content="Добавить адрес" HorizontalAlignment="Left" Margin="9,232,0,0" VerticalAlignment="Top" Width="177" Click="Add_Adress_Click"/>
+        <TextBox x:Name="TextBox_AddApartment" HorizontalAlignment="Left" Height="20" Margin="192,257,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="TextBox_DeleteId" HorizontalAlignment="Left" Height="20" Margin="114,309,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="Add_Changes" Content="Редактировать квартиру по id" HorizontalAlignment="Left" Margin="9,282,0,0" VerticalAlignment="Top" Width="177" Click="Add_Changes_Click"/>
+        <TextBox x:Name="TextBox_ChangeApartment" HorizontalAlignment="Left" Height="20" Margin="192,282,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="Search_for_Area_text" HorizontalAlignment="Left" Height="20" Margin="114,334,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="Search_for_City_text" HorizontalAlignment="Left" Height="20" Margin="114,359,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="Refresh" Content="Обновить инфу" HorizontalAlignment="Left" Margin="9,409,0,0" VerticalAlignment="Top" Width="100" Click="Refresh_Click"/>
+        <Button x:Name="Sort_For_Area" Content="сортировка по площади" HorizontalAlignment="Left" Margin="9,384,0,0" VerticalAlignment="Top" Width="100" Click="Sort_For_Area_Click"/>
+
+    </Grid>
+</Window>

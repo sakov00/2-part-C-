@@ -1,0 +1,6 @@
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba3\Sakov.laba3\bin\Debug\Sakov.laba3.exe.config
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba3\Sakov.laba3\bin\Debug\Sakov.laba3.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba3\Sakov.laba3\bin\Debug\Sakov.laba3.pdb
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba3\Sakov.laba3\obj\Debug\Sakov.laba3.csprojAssemblyReference.cache
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba3\Sakov.laba3\obj\Debug\Sakov.laba3.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba3\Sakov.laba3\obj\Debug\Sakov.laba3.pdb

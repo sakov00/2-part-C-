@@ -1,0 +1,12 @@
+C:\Users\Евгений\Desktop\OOP\Sakov.laba1\obj\Debug\Sakov.laba1.csprojAssemblyReference.cache
+C:\Users\Евгений\Desktop\OOP\Sakov.laba1\bin\Debug\Sakov.laba1.exe.config
+C:\Users\Евгений\Desktop\OOP\Sakov.laba1\bin\Debug\Sakov.laba1.exe
+C:\Users\Евгений\Desktop\OOP\Sakov.laba1\bin\Debug\Sakov.laba1.pdb
+C:\Users\Евгений\Desktop\OOP\Sakov.laba1\obj\Debug\Sakov.laba1.exe
+C:\Users\Евгений\Desktop\OOP\Sakov.laba1\obj\Debug\Sakov.laba1.pdb
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba1\bin\Debug\Sakov.laba1.exe.config
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba1\bin\Debug\Sakov.laba1.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba1\bin\Debug\Sakov.laba1.pdb
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba1\obj\Debug\Sakov.laba1.csprojAssemblyReference.cache
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba1\obj\Debug\Sakov.laba1.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba1\obj\Debug\Sakov.laba1.pdb

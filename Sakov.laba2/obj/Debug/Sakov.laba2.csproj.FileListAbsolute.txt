@@ -1,0 +1,6 @@
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba2\bin\Debug\Sakov.laba2.exe.config
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba2\bin\Debug\Sakov.laba2.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba2\bin\Debug\Sakov.laba2.pdb
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba2\obj\Debug\Sakov.laba2.csprojAssemblyReference.cache
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba2\obj\Debug\Sakov.laba2.exe
+C:\Users\Евгений\Desktop\OOP C#\Sakov.laba2\obj\Debug\Sakov.laba2.pdb
